@@ -11,5 +11,8 @@ SQLScript.sql - SQL to generate the following attributes for each ticket:
                 ○ Time spent waiting for response (Pending Status)
                 ○ Time till resolution
                 ○ Time to first response
+                
+execMainFile.sh - Batch file for automating execution of above programs.
 
-execMainFile.bat - Batch file for automating execution of above programs.
+Run the SQLScript.sql  - > "sqlite3 ticketHelpDeskSQLLite.db < SQLScript.sql"
+
